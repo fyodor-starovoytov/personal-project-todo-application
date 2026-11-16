@@ -6,7 +6,7 @@
   <artifactId>todo-application</artifactId>
   <version>1.0-SNAPSHOT</version>
   <name>todo-application</name>
-  <description>A JavaFX archetype for a non-modular FXML project.</description>
+  <description>Small practice project</description>
   <url>https://github.com/user/javafx-fxml-template</url>
 
   <licenses>
