@@ -5,6 +5,7 @@ target/
 .kotlin
 
 **/.env
+**/resources/net/star/tasks/
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
