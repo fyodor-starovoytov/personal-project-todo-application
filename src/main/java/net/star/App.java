@@ -1,6 +1,7 @@
 package net.star;
 
 import java.io.IOException;
+import java.util.stream.Collectors;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -19,4 +20,12 @@ public class App extends Application {
         stage.show();
     }
 
+    @Override
+    public void stop() throws Exception {
+
+        IO.println("Saving: " + Task.tasks.stream().map(Task::getTaskName).toList());
+        JsonReader.writeFile(Task.tasks.toArray(new Task[0]));
+
+        super.stop();
+    }
 }
