@@ -6,12 +6,12 @@
 <?import javafx.geometry.Insets?>
 
 <?import javafx.scene.control.TextField?>
-<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.star.MainController">
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="300.0" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.star.MainController">
     <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+        <Insets bottom="40.0" left="20.0" right="20.0" top="40.0"/>
     </padding>
 
-    <TextField fx:id="greet" text="Love"/>
-    <Label text="Hello, JavaFX!"/>
-    <Button fx:id="addButton" text="Click Me!"/>
+    <TextField fx:id="addTask" text="Add task"/>
+    <Label fx:id="savedTask" text="Your tasks will appear here."/>
+    <Button fx:id="addButton" text="Save"/>
 </VBox>
